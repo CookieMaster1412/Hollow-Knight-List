@@ -1365,4 +1365,3 @@ categoryFilter.addEventListener("change", applyFilter);
 openOnlyFilter.addEventListener("change", applyFilter);
 
 renderList();
-
