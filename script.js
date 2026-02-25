@@ -443,7 +443,7 @@ const items = [
     name: "Kingsoul / Void Heart",
     location: "The Abyss",
     category: "Charms",
-    requirements: "None / Kingsoul",
+    requirements: "Defeating Traitor Lord & Awaken Dream Nail & Finishing the White Palace / Kingsoul",
     image: "images/C40.webp",
     mapImage: "images/C40M.webp"
   },
@@ -1365,3 +1365,4 @@ categoryFilter.addEventListener("change", applyFilter);
 openOnlyFilter.addEventListener("change", applyFilter);
 
 renderList();
+
