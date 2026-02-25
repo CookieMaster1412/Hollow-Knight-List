@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Checklist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="topContainer">
+  <img 
+  src="images/112_ ChecklistHOLLOW KNIGHT .png" 
+  alt="Hollow Knight 112% Checklist"
+  id="titleImage"
+  />
+
+  <div id="filters">
+    <select id="locationFilter">
+      <option value="all">Alle Locations</option>
+
+      <option value="The Abyss">The Abyss</option>
+      <option value="Ancient Basin">Ancient Basin</option>
+
+      <option value="City of Tears">City of Tears</option>
+      <option value="Crystal Peak">Crystal Peak</option>
+
+      <option value="Deepnest">Deepnest</option>
+      <option value="Dirtmouth">Dirtmouth</option>
+
+      <option value="Fog Canyon">Fog Canyon</option>
+      <option value="Forgotten Crossroads">Forgotten Crossroads</option>
+      <option value="Fungal Wastes">Fungal Wastes</option>
+
+      <option value="Greenpath">Greenpath</option>
+      <option value="Godhome">Godhome</option>
+
+      <option value="The Hive">The Hive</option>
+      <option value="Howling Cliffs">Howling Cliffs</option>
+
+      <option value="Kingdoms Edge">Kingdoms Edge</option>
+
+      <option value="Queens Gardens">Queens Gardens</option>
+
+      <option value="Resting Grounds">Resting Grounds</option>
+      <option value="Royal Waterways">Royal Waterways</option>
+    </select>
+
+    <select id="categoryFilter">
+      <option value="all">Alle Kategorien</option>
+      <option value="Bosses">Boss</option>
+      <option value="Charms">Charms</option>
+      <option value="Colosseum">Colosseum</option>
+      <option value="Dream Nail">Dream Nail</option>
+      <option value="Dreamers">Dreamers</option>
+      <option value="Equipment">Equipment</option>
+      <option value="Godhome">Godhome</option>
+      <option value="Mask Shard">Mask Shard</option>
+      <option value="Nail">Nail</option>
+      <option value="Nail Arts">Nail Arts</option>
+      <option value="Spells">Spells</option>
+      <option value="Vessel Fragments">Vessel Fragments</option>
+      <option value="Others">Others</option>
+    </select>
+
+    <label>
+      <input type="checkbox" id="openOnlyFilter">
+      Not Checked
+    </label>
+  </div>
+
+  <div id="totalProgress">0% / 112%</div>
+  <button id="resetButton">Reset</button>
+</div>
+
+<div id="progress"></div>
+
+<ul id="list" class="item-grid"></ul>
+
+<div id="modal" class="hidden">
+  <div id="modalContent">
+    <div id="modalLeft">
+      <img id="itemImage" src="" alt="">
+    </div>
+
+    <div id="modalRight">
+      <div id="modalText"></div>
+      <img id="mapImage" src="" alt="">
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
